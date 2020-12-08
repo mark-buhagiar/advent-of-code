@@ -609,5 +609,5 @@ function doWork(input, target, uniqueCases) {
 performance.mark("processing-start");
 const cases = new Set();
 doWork(input.split(/\n/), "shiny gold bag", cases);
-console.log(cases.size);
+console.log(cases);
 performance.measure("execution-measure", "processing-start");
